@@ -1,0 +1,99 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Navigation Styles */
+  .navbar {
+    background-color: #343a40; /* Dark background color */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* White text color */
+    color: rgb(152, 97, 203);
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff; /* White background color for the toggler icon */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; /* White text color for nav links */
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-color: #343a40;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .hero h1,
+  .hero h2 {
+    color: #ffd700; /* Gold text color */
+  }
+  
+  /* About Section Styles */
+  .ftco-about {
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .about-info li {
+    list-style-type: none;
+  }
+  
+  /* Education Section Styles */
+  #resume-section {
+    background-color: #e9ecef; /* Light gray background color */
+  }
+  
+  .resume-wrap {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-wrap h2 {
+    color: #343a40; /* Dark text color */
+  }
+  
+  .resume-wrap .date {
+    color: #6c757d; /* Gray text color for date */
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    color: #ffd700; /* Gold text color for footer links */
+  }
+  
+  /* General Section Styles */
+  .section-heading h2 {
+    color: #343a40;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      margin-top: 10px;
+    }
+  
+    .hero h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
